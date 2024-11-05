@@ -4,7 +4,7 @@ import time
 # Get dice roll
 def roll():
     min_value = 1
-    max_value = 50
+    max_value = 6
     return random.randint(min_value, max_value)
 
 # Game function
